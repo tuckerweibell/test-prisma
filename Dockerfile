@@ -1,5 +1,5 @@
 FROM ubuntu
 
-RUN bash -c 'apt-get update && apt-get upgrade'
+RUN bash -c 'apt-get update -y && apt-get upgrade -y'
 
 CMD bash
